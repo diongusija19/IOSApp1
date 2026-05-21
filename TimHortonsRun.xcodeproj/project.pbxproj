@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A39AF2EB08919F8F5B96F51 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE48F004DE185C419DE7F48 /* Order.swift */; };
+		3E80047A1C8DBBC4984945A4 /* TimHortonsRunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868409F781BFD7D27869E381 /* TimHortonsRunApp.swift */; };
+		774893DC8B2C7D627F1CD299 /* TimerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DB000069A7F550E10B27B0 /* TimerCardView.swift */; };
+		886F80B7AD0E87036368D9DE /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2826E851DEE291212043C850 /* OrderListViewModel.swift */; };
+		A3C4EC28626909BC7E19B7A3 /* TeamOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48D937F86B10D13ABC91E98 /* TeamOrder.swift */; };
+		B8BA59BDE191942C2CE3B9FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E7C0878248CE68AA5427E /* ContentView.swift */; };
+		D8B6533B928B1F60CDBD0CB9 /* OrderFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B7568726C60C3DB11001C /* OrderFormView.swift */; };
+		D90187C8DB867C6AF4CD36F0 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B82E854296BF0C0B8643BD /* OrderRowView.swift */; };
+		FA234BEDC7556F07CE619E77 /* OrderStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5184949421654B467B84BE /* OrderStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0942EDC72DF689DECB65B71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2826E851DEE291212043C850 /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
+		4FE48F004DE185C419DE7F48 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		7E5184949421654B467B84BE /* OrderStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStore.swift; sourceTree = "<group>"; };
+		868409F781BFD7D27869E381 /* TimHortonsRunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimHortonsRunApp.swift; sourceTree = "<group>"; };
+		8FFD4BCFED4BCC43261B8656 /* TimHortonsRun.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TimHortonsRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2DB000069A7F550E10B27B0 /* TimerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCardView.swift; sourceTree = "<group>"; };
+		C34B7568726C60C3DB11001C /* OrderFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFormView.swift; sourceTree = "<group>"; };
+		C48D937F86B10D13ABC91E98 /* TeamOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamOrder.swift; sourceTree = "<group>"; };
+		C4B82E854296BF0C0B8643BD /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
+		DB2E7C0878248CE68AA5427E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		03A50D7CA40054156CB38AF2 /* TimHortonsRun */ = {
+			isa = PBXGroup;
+			children = (
+				DB2E7C0878248CE68AA5427E /* ContentView.swift */,
+				0942EDC72DF689DECB65B71F /* Info.plist */,
+				868409F781BFD7D27869E381 /* TimHortonsRunApp.swift */,
+				BCBFE54F6E3788C2E24DEA8A /* Models */,
+				21AFB80CC6FDB2234F77BF42 /* Services */,
+				C069C2534DC6D3E0EDE1B42D /* ViewModels */,
+				EBF01E3C07885255EF28A510 /* Views */,
+			);
+			path = TimHortonsRun;
+			sourceTree = "<group>";
+		};
+		21AFB80CC6FDB2234F77BF42 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7E5184949421654B467B84BE /* OrderStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8A180906F1479E71599D8438 = {
+			isa = PBXGroup;
+			children = (
+				03A50D7CA40054156CB38AF2 /* TimHortonsRun */,
+				FD8590059862AA1C756F6897 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCBFE54F6E3788C2E24DEA8A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4FE48F004DE185C419DE7F48 /* Order.swift */,
+				C48D937F86B10D13ABC91E98 /* TeamOrder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C069C2534DC6D3E0EDE1B42D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2826E851DEE291212043C850 /* OrderListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EBF01E3C07885255EF28A510 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C34B7568726C60C3DB11001C /* OrderFormView.swift */,
+				C4B82E854296BF0C0B8643BD /* OrderRowView.swift */,
+				B2DB000069A7F550E10B27B0 /* TimerCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD8590059862AA1C756F6897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FFD4BCFED4BCC43261B8656 /* TimHortonsRun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E77E8EA10A4E35F5BFF4E935 /* TimHortonsRun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8CFECBE8620563D9BD787AB /* Build configuration list for PBXNativeTarget "TimHortonsRun" */;
+			buildPhases = (
+				77BC3FE75623816DCEB7AB65 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimHortonsRun;
+			packageProductDependencies = (
+			);
+			productName = TimHortonsRun;
+			productReference = 8FFD4BCFED4BCC43261B8656 /* TimHortonsRun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D67F30DABFE230DE8018BB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E77E8EA10A4E35F5BFF4E935 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FD0900F9143B63DD2837A614 /* Build configuration list for PBXProject "TimHortonsRun" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8A180906F1479E71599D8438;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FD8590059862AA1C756F6897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E77E8EA10A4E35F5BFF4E935 /* TimHortonsRun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77BC3FE75623816DCEB7AB65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8BA59BDE191942C2CE3B9FD /* ContentView.swift in Sources */,
+				3A39AF2EB08919F8F5B96F51 /* Order.swift in Sources */,
+				D8B6533B928B1F60CDBD0CB9 /* OrderFormView.swift in Sources */,
+				886F80B7AD0E87036368D9DE /* OrderListViewModel.swift in Sources */,
+				D90187C8DB867C6AF4CD36F0 /* OrderRowView.swift in Sources */,
+				FA234BEDC7556F07CE619E77 /* OrderStore.swift in Sources */,
+				A3C4EC28626909BC7E19B7A3 /* TeamOrder.swift in Sources */,
+				3E80047A1C8DBBC4984945A4 /* TimHortonsRunApp.swift in Sources */,
+				774893DC8B2C7D627F1CD299 /* TimerCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47D131E99D04A61BCAA631D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9338DA57D19DC8A56C05EFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TimHortonsRun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diongusija.TimHortonsRun;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC60B21FEDD624B3CF2FE550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C06EBBB08EF1B9085956EF7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TimHortonsRun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diongusija.TimHortonsRun;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8CFECBE8620563D9BD787AB /* Build configuration list for PBXNativeTarget "TimHortonsRun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06EBBB08EF1B9085956EF7B /* Debug */,
+				9338DA57D19DC8A56C05EFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FD0900F9143B63DD2837A614 /* Build configuration list for PBXProject "TimHortonsRun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC60B21FEDD624B3CF2FE550 /* Debug */,
+				47D131E99D04A61BCAA631D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D67F30DABFE230DE8018BB2 /* Project object */;
+}
