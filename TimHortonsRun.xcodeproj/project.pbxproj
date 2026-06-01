@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		066965F04024287F72E922F5 /* CoffeeRunRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430FA78E3C315ECDD4535712 /* CoffeeRunRecord.swift */; };
 		3A39AF2EB08919F8F5B96F51 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE48F004DE185C419DE7F48 /* Order.swift */; };
 		3E80047A1C8DBBC4984945A4 /* TimHortonsRunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868409F781BFD7D27869E381 /* TimHortonsRunApp.swift */; };
 		774893DC8B2C7D627F1CD299 /* TimerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DB000069A7F550E10B27B0 /* TimerCardView.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		0942EDC72DF689DECB65B71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2826E851DEE291212043C850 /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
+		430FA78E3C315ECDD4535712 /* CoffeeRunRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeRunRecord.swift; sourceTree = "<group>"; };
 		4FE48F004DE185C419DE7F48 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		7E5184949421654B467B84BE /* OrderStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStore.swift; sourceTree = "<group>"; };
 		868409F781BFD7D27869E381 /* TimHortonsRunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimHortonsRunApp.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		BCBFE54F6E3788C2E24DEA8A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				430FA78E3C315ECDD4535712 /* CoffeeRunRecord.swift */,
 				4FE48F004DE185C419DE7F48 /* Order.swift */,
 				C48D937F86B10D13ABC91E98 /* TeamOrder.swift */,
 			);
@@ -156,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				066965F04024287F72E922F5 /* CoffeeRunRecord.swift in Sources */,
 				B8BA59BDE191942C2CE3B9FD /* ContentView.swift in Sources */,
 				3A39AF2EB08919F8F5B96F51 /* Order.swift in Sources */,
 				D8B6533B928B1F60CDBD0CB9 /* OrderFormView.swift in Sources */,

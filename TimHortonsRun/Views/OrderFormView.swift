@@ -3,18 +3,39 @@ import SwiftUI
 struct OrderFormView: View {
     @Environment(\.dismiss) private var dismiss
 
-    @State private var personName = ""
-    @State private var drinkType = "Coffee"
-    @State private var size = "Medium"
-    @State private var milk = "Regular"
-    @State private var sugarCount = 1
-    @State private var extras = ""
+    @State private var personName: String
+    @State private var drinkType: String
+    @State private var size: String
+    @State private var milk: String
+    @State private var sugarCount: Int
+    @State private var extras: String
 
-    let onSave: (String, Order) -> Void
+    private let title: String
+    private let saveButtonLabel: String
+    private let onSave: (String, Order) -> Void
 
     private let drinkOptions = ["Coffee", "Iced Capp", "Tea", "French Vanilla", "Hot Chocolate"]
     private let sizeOptions = ["Small", "Medium", "Large", "Extra Large"]
     private let milkOptions = ["Regular", "2%", "Skim", "Oat", "Almond"]
+
+    init(
+        title: String = "New Order",
+        saveButtonLabel: String = "Save",
+        initialName: String = "",
+        initialOrder: Order = Order(),
+        onSave: @escaping (String, Order) -> Void
+    ) {
+        self.title = title
+        self.saveButtonLabel = saveButtonLabel
+        self.onSave = onSave
+
+        _personName = State(initialValue: initialName)
+        _drinkType = State(initialValue: initialOrder.drinkType)
+        _size = State(initialValue: initialOrder.size)
+        _milk = State(initialValue: initialOrder.milk)
+        _sugarCount = State(initialValue: initialOrder.sugarCount)
+        _extras = State(initialValue: initialOrder.extras)
+    }
 
     var body: some View {
         NavigationStack {
@@ -46,13 +67,13 @@ struct OrderFormView: View {
                     TextField("Extras", text: $extras)
                 }
             }
-            .navigationTitle("New Order")
+            .navigationTitle(title)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
                     Button("Cancel") { dismiss() }
                 }
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("Save") {
+                    Button(saveButtonLabel) {
                         let order = Order(
                             drinkType: drinkType,
                             size: size,
